@@ -10,7 +10,7 @@ This repository presents a fusion model for skin lesion segmentation and classif
 
 ### Installation
 1. Download or clone the repository: `git clone https://github.com/KilianZell/CS502_project.git`
-2. Manually install the required packages listed in requirements.txt. Alternatively, you can simply run the dedicated cell in main.ipynb using pip.
+2. Manually install the required packages listed in requirements.txt. Alternatively, you can simply run the dedicated cell in `main.ipynb`.
 
 ### Data Loading
 1. Download the compressed and assembled HAM10000 dataset:
