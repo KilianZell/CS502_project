@@ -39,7 +39,7 @@ working directory/
 │
 ├── unet++.pt
 │
-├── unet++.pt
+├── resnet50.pt
 │
 ├── figures/
 │   ├──  fig1.png
