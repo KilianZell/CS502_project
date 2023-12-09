@@ -49,6 +49,7 @@ working directory/
 │   ├──  fig5.png
 │   ├──  fig6.png
 │   └──  fig7.png
+│
 ├── README.md
 └── requirements.txt
 ```
