@@ -17,7 +17,46 @@ A step-by-step guide on how to install and set up the project:
 3. Dowload the pre-trained modeled from [Drive](...):
    - `unet++.pt`: the pretrained segmentation model
    - `resnet50.pt`: the pretrained classification model
-      
+
+### Directory Structure
+```bash
+project-root/
+│
+├── data/
+│   ├── raw/
+│   │   └── # Raw data files (e.g., original images, CSV files)
+│   ├── processed/
+│   │   └── # Processed data generated during pre-processing
+│   └── external/
+│       └── # External datasets or data from other sources
+│
+├── notebooks/
+│   └── # Jupyter notebooks for exploratory data analysis, prototyping, etc.
+│
+├── src/
+│   ├── preprocessing/
+│   │   └── # Code for data pre-processing steps
+│   ├── models/
+│   │   └── # Code for model architectures, training, and evaluation
+│   └── utils/
+│       └── # Utility functions and helper scripts
+│
+├── experiments/
+│   └── # Experiment results, model checkpoints, and logs
+│
+├── docs/
+│   └── # Documentation files (e.g., project documentation, guides)
+│
+├── tests/
+│   └── # Unit tests and test datasets
+│
+├── scripts/
+│   └── # Miscellaneous scripts (e.g., data download scripts, setup scripts)
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
       
       
       
