@@ -9,7 +9,7 @@ This repository presents a fusion model for skin lesion segmentation and classif
 ### Installation
 
 A step-by-step guide on how to install and set up the project.
-1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
+1. Clone the repository: `git clone https://github.com/KilianZell/CS502_project.git`
 2. Change into the project directory: `cd your-project`
 3. Install dependencies: `npm install`
 
