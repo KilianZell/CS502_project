@@ -15,8 +15,8 @@ A step-by-step guide on how to install and set up the project:
    - For convenience, you can download the pre-compressed and assembled version directly from [Drive](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
    - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Installation')
 3. Dowload the pre-trained modeled from [Drive](...):
-   - unet++.pt: the pretrained segmentation model
-   - resnet50.pt: the pretrained classification model
+   - `unet++.pt`: the pretrained segmentation model
+   - `resnet50.pt`: the pretrained classification model
       
       
       
@@ -30,16 +30,16 @@ A step-by-step guide on how to install and set up the project:
       
 ## Manual Installation
 -  Download the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T):
-         -  'HAM10000_images_part_1.zip'
-         - 'HAM10000_images_part_1.zip'
-         - 'HAM10000_segmentations_lesion_tschandl.zip'
+         -  `HAM10000_images_part_1.zip`
+         - `HAM10000_images_part_1.zip`
+         - `HAM10000_segmentations_lesion_tschandl.zip`
       -  Download the groundtruth labels .csv file from the [ISIC website](https://challenge.isic-archive.com/data/#2018) available at this [link](https://isic-challenge-data.s3.amazonaws.com/2018/ISIC2018_Task3_Training_GroundTruth.zip).
       -  After downloading:
          - Unzip all files
-         - Compile the two image folders into a folder named 'data_train'
-         - Rename the groundtruth folder to 'gt_train'
-         - Rename the .csv label file to 'gt_train.csv'
-         - Group 'data_train', 'gt_train' and 'gt_train.csv' in a folder called HAM10000 and compress it.
+         - Compile the two image folders into a folder named `data_train`
+         - Rename the groundtruth folder to `gt_train'`
+         - Rename the .csv label file to `gt_train.csv`
+         - Group `data_train`, `gt_train` and `gt_train.csv` in a folder called `HAM10000` and compress it.
 
 It is strongly advised to opt for the first option as it ensures that all folders have the correct names and structure, simplifying the setup process.
 
