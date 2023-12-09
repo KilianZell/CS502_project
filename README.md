@@ -32,30 +32,24 @@ working directory/
 │   ├── dataset.py/
 │   ├── models.py/
 │   ├── training.py/
-│   ├── models.py/
-│   ├── models.py/
+│   ├── utils.py/
+│   └── plots.py/
 │
-├── src/
-│   ├── preprocessing/
-│   │   └── # Code for data pre-processing steps
-│   ├── models/
-│   │   └── # Code for model architectures, training, and evaluation
-│   └── utils/
-│       └── # Utility functions and helper scripts
+├── main.ipynb
 │
-├── experiments/
-│   └── # Experiment results, model checkpoints, and logs
+├── unet++.pt
 │
-├── docs/
-│   └── # Documentation files (e.g., project documentation, guides)
+├── unet++.pt
 │
-├── tests/
-│   └── # Unit tests and test datasets
-│
-├── scripts/
-│   └── # Miscellaneous scripts (e.g., data download scripts, setup scripts)
-│
-├── .gitignore
+├── figures/
+│   ├──  fig1.png
+│   ├──  fig2.png
+│   ├──  fig3.png
+│   ├──  fig4.png
+│   ├──  fig5.png
+│   ├──  fig6.png
+│   └──  fig7.png
+|
 ├── README.md
 └── requirements.txt
 ```
