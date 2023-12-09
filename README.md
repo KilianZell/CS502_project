@@ -23,18 +23,17 @@ A step-by-step guide on how to install and set up the project:
 ### Directory Structure
 At this point your directory should be similar to:
 ```bash
-project-root/
+working directory/
 │
 ├── data/
-│   ├── raw/
-│   │   └── # Raw data files (e.g., original images, CSV files)
-│   ├── processed/
-│   │   └── # Processed data generated during pre-processing
-│   └── external/
-│       └── # External datasets or data from other sources
+│   └── HAM10000.zip/
 │
-├── notebooks/
-│   └── # Jupyter notebooks for exploratory data analysis, prototyping, etc.
+├── toolbox/
+│   ├── dataset.py/
+│   ├── models.py/
+│   ├── training.py/
+│   ├── models.py/
+│   ├── models.py/
 │
 ├── src/
 │   ├── preprocessing/
