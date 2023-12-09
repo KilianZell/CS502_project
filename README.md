@@ -6,6 +6,13 @@ This repository presents a fusion model for skin lesion segmentation and classif
 
 ## Getting Started
 
+1. First point
+   a. Subpoint A
+   b. Subpoint B
+2. Second point
+   a. Subpoint A
+   b. Subpoint B
+
 ### Installation
 A step-by-step guide on how to install and set up the project:
 1. Clone the repository: `git clone https://github.com/KilianZell/CS502_project.git`
