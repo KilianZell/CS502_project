@@ -1,5 +1,4 @@
-# Project Name
-Fusion of U-Net++ and ResNet50 Models for Melanoma Diagnosis from Dermoscopic Images
+# Fusion of U-Net++ and ResNet50 Models for Melanoma Diagnosis from Dermoscopic Images
 
 ## Description
 
