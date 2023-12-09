@@ -4,7 +4,7 @@
 
 This repository presents a fusion model for skin lesion segmentation and classification, tailored for melanoma diagnosis from dermoscopic images. Combining a custom encoder-decoder neural network with a pre-trained classifier, the model achieves an overall accuracy of XX%. To enhance diagnostic precision, the model first extracts the Region of Interest (ROI) from lesion images using a U-Net++ inspired architecture before feeding the samples into a pre-trained ResNet50 model calibrated for binary predictions ('melanoma' or 'non-melanoma'). The workflow is trained and evaluated on the HAM10000 dataset, comprising 10,015 dermoscopic images with corresponding binary masks and gold standard malignant status annotations.
 
-<img src="figures/fig2.png" alt="Image Alt Text" width="1000"/>
+<img src="figures/fig2.png" alt="Image Alt Text" width="500"/>
 
 ## Getting Started
 
@@ -22,6 +22,10 @@ This repository presents a fusion model for skin lesion segmentation and classif
    - [resnet50.pt](...): the pretrained classification model
 4. Place the unzipped pre-trained models in the main directory.
 
+### Run the workflow
+1. Make sure that your working directory looks like the one in `Directory Structure` section.
+2. Simply open the project notebook main.ipynb and run the cells while following the instructions.
+   
 ### Directory Structure
 At this point, your directory should look like:
 ```bash
@@ -37,25 +41,25 @@ working directory/
 │   ├── utils.py/
 │   └── plots.py/
 │
-├── main.ipynb
+├── main.ipynb/
 │
-├── unet++.pt
+├── unet++.pt/
 │
-├── resnet50.pt
+├── resnet50.pt/
 │
 ├── figures/
-│   ├──  fig1.png
-│   ├──  fig2.png
-│   ├──  fig3.png
-│   ├──  fig4.png
-│   ├──  fig5.png
-│   ├──  fig6.png
-│   └──  fig7.png
+│   ├──  fig1.png/
+│   ├──  fig2.png/
+│   ├──  fig3.png/
+│   ├──  fig4.png/
+│   ├──  fig5.png/
+│   ├──  fig6.png/
+│   └──  fig7.png/
 │
-├── README.md
-└── requirements.txt
+├── README.md/
+└── requirements.txt/
 ```
-      
+
       
       
       
