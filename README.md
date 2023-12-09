@@ -21,7 +21,7 @@ A step-by-step guide on how to install and set up the project:
 4. Place the unzipped pre-trained models in the main directory.
 
 ### Directory Structure
-At this point your directory should be similar to:
+At this point, your directory should look like:
 ```bash
 working directory/
 │
