@@ -10,10 +10,11 @@ This repository presents a fusion model for skin lesion segmentation and classif
 
 ### Installation
 A step-by-step guide on how to install and set up the project:
-1. Clone the repository: `git clone https://github.com/KilianZell/CS502_project.git`
+1. Download or clone the repository: `git clone https://github.com/KilianZell/CS502_project.git`
 2. Download the compressed and assembled HAM10000 dataset:
-   - For convenience, you can download the pre-compressed and assembled version directly from [Drive](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
+   - For convenience, you can download the pre-compressed and assembled version directly from [HAM10000.zip](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
    - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Installation')
+3. Place `HAM10000.zip` in the dolder `data` (do not de-compress the .zip file)
 3. Dowload the pre-trained modeled from [Drive](...):
    - `unet++.pt`: the pretrained segmentation model
    - `resnet50.pt`: the pretrained classification model
