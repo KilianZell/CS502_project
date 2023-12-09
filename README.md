@@ -15,11 +15,13 @@ A step-by-step guide on how to install and set up the project:
    - For convenience, you can download the pre-compressed and assembled version directly from [HAM10000.zip](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
    - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Installation')
 3. Place `HAM10000.zip` in the dolder `data` (do not de-compress the .zip file)
-3. Dowload the pre-trained modeled from [Drive](...):
-   - `unet++.pt`: the pretrained segmentation model
-   - `resnet50.pt`: the pretrained classification model
+3. Dowload the two pre-trained modeles (only required if you wish to use the pre-trained functionalities):
+   - [unet++.pt](...): the pretrained segmentation model
+   - [resnet50.pt](...): the pretrained classification model
+4. Place the unzipped pre-trained models in the main directory.
 
 ### Directory Structure
+At this point your directory should be similar to:
 ```bash
 project-root/
 │
