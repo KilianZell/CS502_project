@@ -23,8 +23,8 @@ A step-by-step guide on how to install and set up the project:
       
       
       
-      
-      -  Download the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T):
+## Manual Installation
+-  Download the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T):
          -  'HAM10000_images_part_1.zip'
          - 'HAM10000_images_part_1.zip'
          - 'HAM10000_segmentations_lesion_tschandl.zip'
