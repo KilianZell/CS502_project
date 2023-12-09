@@ -6,19 +6,12 @@ This repository presents a fusion model for skin lesion segmentation and classif
 
 ## Getting Started
 
-1. First point
-   a. Subpoint A
-   b. Subpoint B
-2. Second point
-   a. Subpoint A
-   b. Subpoint B
-
 ### Installation
 A step-by-step guide on how to install and set up the project:
 1. Clone the repository: `git clone https://github.com/KilianZell/CS502_project.git`
 2. Download the compressed and assembled HAM10000 dataset:
-   a. For convenience, you can download the pre-compressed and assembled version directly from [Google Drive](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
-   b. Alternatively, you have the option to manually reconstruct the dataset by downloading the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) ('HAM10000_images_part_1.zip', 'HAM10000_images_part_1.zip', and 'HAM10000_segmentations_lesion_tschandl.zip') and the groundtruth labels .csv file from the [ISIC website](https://challenge.isic-archive.com/data/#2018) dowloadable with this [link](https://isic-challenge-data.s3.amazonaws.com/2018/ISIC2018_Task3_Training_GroundTruth.zip). After downloading, unzip all files, compile the two image folders into a folder named 'data_train', rename the groundtruth folder to 'gt_train', rename the .csv label file to 'gt_train.csv'. You will then need to group 'data_train', 'gt_train' and 'gt_train.csv' in a folder called HAM10000 and compress it.
+   - For convenience, you can download the pre-compressed and assembled version directly from [Google Drive](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
+   - Alternatively, you have the option to manually reconstruct the dataset by downloading the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) ('HAM10000_images_part_1.zip', 'HAM10000_images_part_1.zip', and 'HAM10000_segmentations_lesion_tschandl.zip') and the groundtruth labels .csv file from the [ISIC website](https://challenge.isic-archive.com/data/#2018) dowloadable with this [link](https://isic-challenge-data.s3.amazonaws.com/2018/ISIC2018_Task3_Training_GroundTruth.zip). After downloading, unzip all files, compile the two image folders into a folder named 'data_train', rename the groundtruth folder to 'gt_train', rename the .csv label file to 'gt_train.csv'. You will then need to group 'data_train', 'gt_train' and 'gt_train.csv' in a folder called HAM10000 and compress it.
 
 It is strongly advised to opt for the first option as it ensures that all folders have the correct names and structure, simplifying the setup process.
 
