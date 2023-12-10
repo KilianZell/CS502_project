@@ -58,6 +58,7 @@ working directory/
 │   ├──  fig6.png/
 │   └──  fig7.png/
 │
+│
 ├── zell_report.pdf./
 ├── README.md/
 └── requirements.txt/
