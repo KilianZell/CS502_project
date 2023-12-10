@@ -27,7 +27,7 @@ This repository presents a fusion model for skin lesion segmentation and classif
 2. Simply open the project notebook main.ipynb and run the cells while following the instructions.
    
 ### Directory Structure
-At this point, your directory should look like:
+Once installation and dataloading performed, your working directory should look like:
 ```bash
 working directory/
 │
