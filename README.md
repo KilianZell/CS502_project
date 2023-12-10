@@ -1,11 +1,5 @@
 # Fusion of U-Net++ and ResNet50 Models for Melanoma Diagnosis from Dermoscopic Images
 
-## Description
-
-This repository presents a fusion model for skin lesion segmentation and classification, tailored for melanoma diagnosis from dermoscopic images. Combining a custom encoder-decoder neural network with a pre-trained classifier, the model achieves an overall accuracy of XX%. To enhance diagnostic precision, the model first extracts the Region of Interest (ROI) from lesion images using a U-Net++ inspired architecture before feeding the samples into a pre-trained ResNet50 model calibrated for binary predictions ('melanoma' or 'non-melanoma'). The workflow is trained and evaluated on the HAM10000 dataset, comprising 10,015 dermoscopic images with corresponding binary masks and gold standard malignant status annotations.
-
-<img src="figures/fig2.png" alt="Image Alt Text" width="750"/>
-
 ## Getting Started
 
 ### Installation
@@ -74,6 +68,11 @@ If you wish to manually download the HAM10000 dataset, you can follow the follow
          - Rename the .csv label file to `gt_train.csv`
          - Group `data_train`, `gt_train` and `gt_train.csv` in a folder called `HAM10000` and compress it.
          - Place HAM10000 in the data folder.
+       
+## Description
+
+This repository presents a fusion model for skin lesion segmentation and classification, tailored for melanoma diagnosis from dermoscopic images. Combining a custom encoder-decoder neural network with a pre-trained classifier, the model achieves an overall accuracy of XX%. To enhance diagnostic precision, the model first extracts the Region of Interest (ROI) from lesion images using a U-Net++ inspired architecture before feeding the samples into a pre-trained ResNet50 model calibrated for binary predictions ('melanoma' or 'non-melanoma'). The workflow is trained and evaluated on the HAM10000 dataset, comprising 10,015 dermoscopic images with corresponding binary masks and gold standard malignant status annotations.
+<img src="figures/fig2.png" alt="Image Alt Text" width="750"/>
 
 ## Introduction
 Skin cancer is the most prevalent type of cancer, and while melanoma constitutes only around 1\% of them, it is responsible for the majority of skin cancer-related death.\cite{american} Currently, melanoma diagnoses rely primarily on the visual examination of skin lesions by dermatologists.\cite{davis19} Unfortunately, this kind of diagnosis is prone to subjectivity and errors.\cite{grant99}  This significantly impact patients' well-being, as an early-stage misdiagnosis can substantially diminish overall chances of survival.
@@ -82,3 +81,5 @@ In this context, deep learning has the potential to significantly enhance the co
 
 The entire workflow is trained and evaluated using the HAM10000\cite{tschandl18}  data-set, consisting of 10'015 dermoscopic images along with their corresponding binary mask images and entries indicating gold standard malignant status.
 <img src="figures/fig1.png" alt="Image Alt Text" width="750"/>
+
+
