@@ -23,7 +23,7 @@ This repository presents a fusion model for skin lesion segmentation and classif
 4. Place the unzipped pre-trained models in the main directory.
 
 ### Run the workflow
-1. Make sure that your working directory looks like the one in `Directory Structure` section.
+1. Make sure that your working directory looks like the one in the `Directory Structure` section.
 2. Simply open the project notebook main.ipynb and run the cells while following the instructions.
    
 ### Directory Structure
