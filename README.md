@@ -32,35 +32,28 @@ For more information please consult: [zell2023_report.pdf](...)
 Once installation and dataloading performed, your working directory should look like:
 ```bash
 working directory/
-│
-├── data/
-│   └── HAM10000.zip/
-│
-├── toolbox/
-│   ├── dataset.py/
-│   ├── models.py/
-│   ├── training.py/
-│   ├── utils.py/
-│   └── plots.py/
-│
-├── figures/
-│   ├──  fig1.png/
-│   ├──  fig2.png/
-│   ├──  fig3.png/
-│   ├──  fig4.png/
-│   ├──  fig5.png/
-│   ├──  fig6.png/
-│   └──  fig7.png/
-│
-├── main.ipynb/
-│
-├── unet++.pt/
-│
-├── resnet50.pt/
-│
-├── zell_report.pdf./
-├── README.md/
-└── requirements.txt/
+├── data
+│   └── HAM10000.zip
+├── toolbox
+│   ├── dataset.py
+│   ├── models.py
+│   ├── training.py
+│   ├── utils.py
+│   └── plots.py
+├── figures
+│   ├──  fig1.png
+│   ├──  fig2.png
+│   ├──  fig3.png
+│   ├──  fig4.png
+│   ├──  fig5.png
+│   ├──  fig6.png
+│   └──  fig7.png
+├── main.ipynb
+├── unet++.pt
+├── resnet50.pt
+├── zell_report.pdf
+├── requirements.txt
+└── README.md
 ```
 
 ### Manual Dataloading
