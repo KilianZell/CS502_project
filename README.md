@@ -27,7 +27,7 @@ This project was designed to run smoothly on Google Colab's free T4 GPU. If you 
    - [resnet50.pt](https://drive.google.com/file/d/1H-3d_sALDrHNJXPizJFMPBZh09ty5gTK/view?usp=share_link), the pretrained classification model
 4. Place the unzipped pre-trained models in the main directory
 
-NOTE: If you wish to try metadata integation in part 3 (not tested) of the project you may also download [ISIC2019.zip](...).
+NOTE: Part 3 of this project (metadata integration) has been implemented successfully but has not undergone thorough testing. Therefore, you may choose to disregard this section entirely. However, if you still want to test this functionality, you will need to apply the same data loading steps presented above to [ISIC2019.zip](https://drive.google.com/file/d/19to1bqmryUhOeG2M5Pjbej04FCO1gCHc/view?usp=share_link).
 
 ### Run the Workflow
 1. Make sure that your working directory looks like the one in the `Directory Structure` section.
