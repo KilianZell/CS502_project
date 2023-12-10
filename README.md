@@ -17,7 +17,7 @@ For more information please consult: [zell2023_report.pdf](...)
 ### Data Loading
 1. Download the compressed and assembled HAM10000 dataset:
    - For convenience, you can download the pre-compressed and assembled version directly from [HAM10000.zip](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
-   - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Installation')
+   - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Dataloading')
 2. Place `HAM10000.zip` in the folder `data` (do not de-compress the .zip file)
 3. Dowload the pre-trained models (only required if you wish to use the pre-trained functionalities):
    - [unet++.pt](...), the pretrained segmentation model
@@ -26,7 +26,7 @@ For more information please consult: [zell2023_report.pdf](...)
 
 ### Run the workflow
 1. Make sure that your working directory looks like the one in the `Directory Structure` section.
-2. Simply open the project notebook main.ipynb and run the cells while following the instructions.
+2. Simply open the project notebook `main.ipynb`, configure your GPU availability in the dedicated cell, and run the rest of the cells while following the instructions.
    
 ### Directory Structure
 Once installation and dataloading performed, your working directory should look like:
