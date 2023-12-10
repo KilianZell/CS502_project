@@ -49,6 +49,7 @@ working directory/
 │   ├──  fig1.png
 │   ├──  fig2.png
 │   ├──  ...
+│   └──  ...
 ├── main.ipynb
 ├── unet++.pt
 ├── resnet50.pt
