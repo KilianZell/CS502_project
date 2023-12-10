@@ -27,6 +27,9 @@ For more information please consult: [zell2023_report.pdf](...)
 ### Run the Workflow
 1. Make sure that your working directory looks like the one in the `Directory Structure` section.
 2. Simply open the project notebook `main.ipynb`, configure your GPU availability in the dedicated cell, and run the rest of the cells while following the instructions.
+
+### Google Colab
+This project was designed to run smoothly on Google Colab's free T4 GPU. If you wish to run it in Colab, download the [git repository](https://github.com/KilianZell/CS502_project.git) and place it in your Google Drive. Simply uncomment the appropriate cells in `main.ipynb` following the provided instructions and run the rest of the cells.
    
 ### Directory Structure
 Once installation and dataloading performed, your working directory should look like:
@@ -57,7 +60,7 @@ working directory/
 ```
 
 ### Manual Dataloading
-If you wish to manually download the HAM10000 dataset, you can follow the following steps:
+If you wish to manually download the HAM10000 dataset, you can follow this steps:
 -  Download the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T):
          - `HAM10000_images_part_1.zip`
          - `HAM10000_images_part_1.zip`
@@ -69,6 +72,6 @@ If you wish to manually download the HAM10000 dataset, you can follow the follow
          - Rename the groundtruth folder to `gt_train'`
          - Rename the .csv label file to `gt_train.csv`
          - Group `data_train`, `gt_train` and `gt_train.csv` in a folder called `HAM10000` and compress it
-         - Place HAM10000 in the data folder
+         - Place `HAM10000.zip` in the folder named `data`
 
 
