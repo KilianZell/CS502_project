@@ -48,11 +48,7 @@ working directory/
 ├── figures
 │   ├──  fig1.png
 │   ├──  fig2.png
-│   ├──  fig3.png
-│   ├──  fig4.png
-│   ├──  fig5.png
-│   ├──  fig6.png
-│   └──  fig7.png
+│   ├──  ...
 ├── main.ipynb
 ├── unet++.pt
 ├── resnet50.pt
