@@ -54,7 +54,7 @@ working directory/
 ├── unet++.pt
 ├── resnet50.pt
 ├── resnet50_meta.pt
-├── zell_report.pdf
+├── zell_CS502.pdf
 ├── requirements.txt
 └── README.md
 ```
