@@ -10,6 +10,9 @@ For more information please consult: [zell2023_report.pdf](...)
 
 ## Getting Started
 
+### Google Colab
+This project was designed to run smoothly on Google Colab's free T4 GPU. If you wish to run it in Colab, download the [git repository](https://github.com/KilianZell/CS502_project.git) (~ Mo) and place it in your Google Drive. Simply uncomment the appropriate cells in `main.ipynb` following the provided instructions and run the rest of the notebook.
+
 ### Installation
 1. Download or clone the repository: `git clone https://github.com/KilianZell/CS502_project.git`
 2. Manually install the required packages listed in requirements.txt. Alternatively, you can simply run the dedicated cell in `main.ipynb`.
@@ -27,9 +30,6 @@ For more information please consult: [zell2023_report.pdf](...)
 ### Run the Workflow
 1. Make sure that your working directory looks like the one in the `Directory Structure` section.
 2. Simply open the project notebook `main.ipynb`, configure your GPU availability in the dedicated cell, and run the rest of the cells while following the instructions.
-
-### Google Colab
-This project was designed to run smoothly on Google Colab's free T4 GPU. If you wish to run it in Colab, download the [git repository](https://github.com/KilianZell/CS502_project.git) and place it in your Google Drive. Simply uncomment the appropriate cells in `main.ipynb` following the provided instructions and run the rest of the cells.
    
 ### Directory Structure
 Once installation and dataloading performed, your working directory should look like:
