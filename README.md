@@ -19,7 +19,7 @@ This project was designed to run smoothly on Google Colab's free T4 GPU. If you 
 
 ### Data Loading
 1. Download the compressed and assembled HAM10000 dataset:
-   - For convenience, you can download the pre-compressed and assembled version directly from [HAM10000.zip](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
+   - For convenience, you can download the pre-compressed and assembled version directly from [HAM10000.zip](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link). To test metadata integation in part 3 you may also download the ISIC2019 dataset: [ISIC2019.zip](...)
    - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Dataloading')
 2. Place `HAM10000.zip` in the folder `data` (do not de-compress the .zip file, depending on the web browser you migth need to manually re-compress the file after dowloading)
 3. Dowload the pre-trained models (only required if you wish to use the pre-trained functionalities):
