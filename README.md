@@ -24,7 +24,7 @@ For more information please consult: [zell2023_report.pdf](...)
    - [resnet50.pt](...), the pretrained classification model
 4. Place the unzipped pre-trained models in the main directory
 
-### Run the workflow
+### Run the Workflow
 1. Make sure that your working directory looks like the one in the `Directory Structure` section.
 2. Simply open the project notebook `main.ipynb`, configure your GPU availability in the dedicated cell, and run the rest of the cells while following the instructions.
    
