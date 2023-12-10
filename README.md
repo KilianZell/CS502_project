@@ -18,8 +18,8 @@ This repository presents a fusion model for skin lesion segmentation and classif
    - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Installation')
 2. Place `HAM10000.zip` in the folder `data` (do not de-compress the .zip file)
 3. Dowload the pre-trained models (only required if you wish to use the pre-trained functionalities):
-   - [unet++.pt](...)  : the pretrained segmentation model
-   - [resnet50.pt](...): the pretrained classification model
+   - [unet++.pt](...), the pretrained segmentation model
+   - [resnet50.pt](...), the pretrained classification model
 4. Place the unzipped pre-trained models in the main directory.
 
 ### Run the workflow
