@@ -23,8 +23,8 @@ This project was designed to run smoothly on Google Colab's free T4 GPU. If you 
    - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Dataloading')
 2. Place `HAM10000.zip` in the folder `data` (do not de-compress the .zip file, depending on the web browser you migth need to manually re-compress the file after dowloading)
 3. Dowload the pre-trained models (only required if you wish to use the pre-trained functionalities):
-   - [unet++.pt](...), the pretrained segmentation model
-   - [resnet50.pt](...), the pretrained classification model
+   - [unet++.pt](https://drive.google.com/file/d/1H-3d_sALDrHNJXPizJFMPBZh09ty5gTK/view?usp=share_link), the pretrained segmentation model
+   - [resnet50.pt](https://drive.google.com/file/d/1biJqvAq1Vq8tWPM2E3ppaFDqp7iCzXhf/view?usp=share_link), the pretrained classification model
 4. Place the unzipped pre-trained models in the main directory
 
 ### Run the Workflow
