@@ -74,7 +74,7 @@ If you wish to manually download the HAM10000 dataset, you can follow the follow
          - Compile the two image folders into a single folder named `data_train`
          - Rename the groundtruth folder to `gt_train'`
          - Rename the .csv label file to `gt_train.csv`
-         - Group `data_train`, `gt_train` and `gt_train.csv` in a folder called `HAM10000` and compress it.
-         - Place HAM10000 in the data folder.
+         - Group `data_train`, `gt_train` and `gt_train.csv` in a folder called `HAM10000` and compress it
+         - Place HAM10000 in the data folder
 
 
