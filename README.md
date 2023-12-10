@@ -22,7 +22,7 @@ For more information please consult: [zell2023_report.pdf](...)
 3. Dowload the pre-trained models (only required if you wish to use the pre-trained functionalities):
    - [unet++.pt](...), the pretrained segmentation model
    - [resnet50.pt](...), the pretrained classification model
-4. Place the unzipped pre-trained models in the main directory.
+4. Place the unzipped pre-trained models in the main directory
 
 ### Run the workflow
 1. Make sure that your working directory looks like the one in the `Directory Structure` section.
