@@ -43,12 +43,6 @@ working directory/
 │   ├── utils.py/
 │   └── plots.py/
 │
-├── main.ipynb/
-│
-├── unet++.pt/
-│
-├── resnet50.pt/
-│
 ├── figures/
 │   ├──  fig1.png/
 │   ├──  fig2.png/
@@ -58,6 +52,11 @@ working directory/
 │   ├──  fig6.png/
 │   └──  fig7.png/
 │
+├── main.ipynb/
+│
+├── unet++.pt/
+│
+├── resnet50.pt/
 │
 ├── zell_report.pdf./
 ├── README.md/
