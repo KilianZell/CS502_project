@@ -72,6 +72,7 @@ If you wish to manually download the HAM10000 dataset, you can follow the follow
 ## Description
 
 This repository presents a fusion model for skin lesion segmentation and classification, tailored for melanoma diagnosis from dermoscopic images. Combining a custom encoder-decoder neural network with a pre-trained classifier, the model achieves an overall accuracy of XX%. To enhance diagnostic precision, the model first extracts the Region of Interest (ROI) from lesion images using a U-Net++ inspired architecture before feeding the samples into a pre-trained ResNet50 model calibrated for binary predictions ('melanoma' or 'non-melanoma'). The workflow is trained and evaluated on the HAM10000 dataset, comprising 10,015 dermoscopic images with corresponding binary masks and gold standard malignant status annotations.
+
 <img src="figures/fig2.png" alt="Image Alt Text" width="750"/>
 
 ## Introduction
@@ -80,6 +81,7 @@ Skin cancer is the most prevalent type of cancer, and while melanoma constitutes
 In this context, deep learning has the potential to significantly enhance the consistency and accuracy of diagnosis while remaining entirely non-invasive. In this work, a model specifically designed to classify skin lesions as 'melanoma' or 'non-melanoma' is proposed. In unsegmented dermoscopic images, the borders of a lesion and skin texture can lead to unwanted feature extraction, affecting the overall performance of classification. To overcome this challenge, the proposed model first extract the Region of Interest (ROI) form the input image using a U-Net++ inspired model so that only relevant features are considered for diagnosis. The resulting segmented region is then fed into a pre-trained ResNet50 calibrated for binary classification to obtain the final prediction.(see Fig. 2)
 
 The entire workflow is trained and evaluated using the HAM10000\cite{tschandl18}  data-set, consisting of 10'015 dermoscopic images along with their corresponding binary mask images and entries indicating gold standard malignant status.
+
 <img src="figures/fig1.png" alt="Image Alt Text" width="750"/>
 
 
