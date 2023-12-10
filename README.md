@@ -60,6 +60,16 @@ working directory/
 ├── requirements.txt
 └── README.md
 ```
+### Notebook Organization
+The notebook is structured into three main parts, each dedicated to a specific aspect of the project.
+
+*Part 1: Lesion Segmentation.* The primary objective in this initial phase is to implement advanced image processing and machine learning techniques to achieve precise and reliable lesion segmentation from dermoscopic images. Evaluation will be conducted using various performance metrics, including the Dice coefficient and pixel-level accuracy.
+
+*Part 2: Lesion Classification.* Building on the 'region of interest' extraction approach developed in the previous part, this section aims to predict lesion disease states, categorizing them as either 'melanoma' or 'non-melanoma.' Model performance evaluation will include key metrics such as accuracy, specificity, sensitivity, precision, and F1-score.
+
+---Please note that the following section has been implemented successfully but has not undergone thorough testing. Therefore, you may choose to disregard this section entirely.---
+
+*Part 3: Metadata Integration.* Extending the classification efforts, this section aims to incorporate additional available patient metadata (age, lesion location, and sex). Model performance will be evaluated using key metrics such as accuracy, specificity, sensitivity, precision, and F1-score.
 
 ### Manual Dataloading
 If you wish to manually download the HAM10000 dataset, you can follow this steps:
