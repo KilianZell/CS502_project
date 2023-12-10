@@ -11,7 +11,7 @@ For more information please consult: [zell_CS502.pdf](https://github.com/KilianZ
 ## Getting Started
 
 ### Google Colab
-This project was designed to run smoothly on Google Colab's free T4 GPU. If you wish to run it in Colab, download the [git repository](https://github.com/KilianZell/CS502_project.git) (~ Mo) and place it in your Google Drive. Load the data set following the instructions in the section `Data Loading`. Simply uncomment the appropriate cells in `main.ipynb` following the provided instructions and run the rest of the notebook.
+This project was designed to run smoothly on Google Colab's free T4 GPU. If you wish to run it in Colab, download the [git repository](https://github.com/KilianZell/CS502_project.git) (~ Mo) and place it in your Google Drive. Load the data set following the instructions in the section `Data Loading`. Finally, simply uncomment the appropriate cells in `main.ipynb` following the provided instructions and run the rest of the notebook.
 
 ### Installation
 1. Download or clone the repository: `git clone https://github.com/KilianZell/CS502_project.git`
