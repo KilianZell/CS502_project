@@ -70,7 +70,7 @@ working directory/
       
       
 ### Manual Dataloading
-If you wish to manually dowload teh HAM10000 dataset you can follow th efollowing szteps:
+If you wish to manually download the HAM10000 dataset, you can follow the following steps:
 -  Download the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T):
          - `HAM10000_images_part_1.zip`
          - `HAM10000_images_part_1.zip`
