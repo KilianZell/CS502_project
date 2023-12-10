@@ -45,7 +45,6 @@ class LesionDataset(Dataset):
             self.age_approx_list = metadata[0]
             self.anatom_site_general_list = metadata[1]
             self.sex_list = metadata[2]
-
             # Combine the three lists into a single tensor
             self.metadata_tensor = torch.tensor([self.age_approx_list, self.anatom_site_general_list, self.sex_list], dtype=torch.float32).t()
 
@@ -661,14 +660,14 @@ def map_metadata(metadata_list):
 
     # Assign unique values starting from 1
     assigned_values = []
+
+    value_mapping[np.nan] = 0
     for element in metadata_list:
         # Map empty elements to 0
-        if not element:
-            assigned_values.append(0)
-        elif element not in value_mapping:
+        if element not in value_mapping:
             value_mapping[element] = len(value_mapping) + 1  # Start at 1
-            assigned_values.append(value_mapping[element])
-
+        assigned_values.append(value_mapping[element])
+    
     # Normalize the assigned values
     max_value = max(assigned_values, default=0)  # Handle case where list is empty
     normalized_values = [value / max_value for value in assigned_values]

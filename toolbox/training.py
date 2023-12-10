@@ -255,14 +255,8 @@ class Trainer():
         Returns:
             None
         """
-        # Load the state dictionary from the saved model
-        if torch.cuda.is_available():
-            
-            # If GPU is available, load directly
-            state_dict = torch.load(model_path)
-        else:
-            # If no GPU is available, use map_location to load on the CPU
-            state_dict = torch.load(model_path, map_location=torch.device('cpu'))
+        # Use map_location to load on the CPU
+        state_dict = torch.load(model_path, map_location=torch.device('cpu'))
 
         # Load the state dictionary into the model
         self.model.load_state_dict(state_dict)

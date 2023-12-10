@@ -104,12 +104,12 @@ class SimpleCNN(nn.Module):
         self.conv3 = nn.Conv2d(32, 64, ks, padding)
         self.bn3 = nn.BatchNorm2d(64)
 
-        # Fully connected layers with Batch Normalization and ReLU activation
-        self.fc1 = nn.Linear(240*240, 256)
-        self.bn_fc1 = nn.BatchNorm1d(256)
-        self.fc2 = nn.Linear(256, output_channels * 256 * 256)
+        # Adjusting fully connected layers for 256x256 input
+        self.fc1 = nn.Linear(240 * 240, 512)
+        self.bn_fc1 = nn.BatchNorm1d(512)
+        self.fc2 = nn.Linear(512, output_channels * 256 * 256)
 
-        # Resize transformation to match the expected input size
+        # Resize images to 256x256
         self.resize_transform = transforms.Resize((256, 256))
 
     def forward(self, x):
@@ -122,9 +122,9 @@ class SimpleCNN(nn.Module):
         Returns:
             torch.Tensor: Output tensor after forward pass.
         """
-        # Resize each image in the batch to input size
-        x = self.resize_transform(x)
-        
+        # Resize image to proper dimension
+        x = self.resize_transform(x) 
+
         # Convolutional layers with Batch Normalization, ReLU activation, and max pooling
         x = F.relu(self.bn1(self.conv1(x)))
         x = F.max_pool2d(x, 2)
@@ -142,12 +142,7 @@ class SimpleCNN(nn.Module):
 
         # Apply sigmoid activation to get binary classification
         output = torch.sigmoid(x)
-
-        # Target tensor size
-        target_size = torch.Size([32, 1, 256, 256])
-
-        # Reshape the tensor
-        output = output.view(target_size)
+        output = output.view(-1, 1, 256, 256)
 
         return output
 

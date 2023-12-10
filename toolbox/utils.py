@@ -582,7 +582,7 @@ def metrics_CLASS(dataset, trainer, threshold=0.5, metadata=False):
 
     return precision, specificity, sensitivity
 
-def get_scores_CLASS(model, trainer, dataset_test, dataset_train=None, verbose=True, threshold=0.5, metadata=False):
+def get_scores_CLASS(trainer, dataset_test, dataset_train=None, verbose=True, threshold=0.5, metadata=False):
     """
     Calculate and print average accuracy, specificity, and sensitivity for training and test datasets.
 
@@ -657,11 +657,11 @@ def get_scores_CLASS(model, trainer, dataset_test, dataset_train=None, verbose=T
         if dataset_train is not None:
             # Print and return the results
             # Define the metric names
-            metric_names = ['Accuracy', 'Precision', 'Specificity', 'Sensitivity', 'F1 Score']
+            metric_names = ['Accuracy', 'Specificity', 'Sensitivity', 'F1 Score']
 
             # Define the metric values
-            train_metrics = [accuracy_train, precision_train, specificity_train, sensitivity_train, f1_train]
-            test_metrics = [accuracy_test, precision_test, specificity_test, sensitivity_test, f1_test]
+            train_metrics = [accuracy_train, specificity_train, sensitivity_train, f1_train]
+            test_metrics = [accuracy_test, specificity_test, sensitivity_test, f1_test]
 
             # Print the metrics in a table-like structure
             print("{:<30} {:<15} {:<15}".format("Metric", "Train", "Test"))
@@ -671,10 +671,10 @@ def get_scores_CLASS(model, trainer, dataset_test, dataset_train=None, verbose=T
                 print("{:<30} {:<15.4f} {:<15.4f}".format(name, train, test))
         else:
             # Define the metric names
-            metric_names_test = ['Accuracy', 'Precision', 'Specificity', 'Sensitivity', 'F1 Score']
+            metric_names_test = ['Accuracy', 'Specificity', 'Sensitivity', 'F1 Score']
 
             # Define the metric values for the test set
-            test_metrics = [accuracy_test, precision_test, specificity_test, sensitivity_test, f1_test]
+            test_metrics = [accuracy_test, specificity_test, sensitivity_test, f1_test]
 
             # Print the metrics for the test set in a table-like structure
             print("{:<30} {:<15}".format("Metric", "Test"))
