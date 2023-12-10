@@ -19,13 +19,15 @@ This project was designed to run smoothly on Google Colab's free T4 GPU. If you 
 
 ### Data Loading
 1. Download the compressed and assembled HAM10000 dataset:
-   - For convenience, you can download the pre-compressed and assembled version directly from [HAM10000.zip](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link). (If you wish to test metadata integation in part 3 of the project you may also download [ISIC2019.zip](...))
+   - For convenience, you can download the pre-compressed and assembled version directly from [HAM10000.zip](https://drive.google.com/file/d/1suJWzU8Oc4yJJraoR6ARsDSo-HFOFNmy/view?usp=share_link).
    - Alternatively, you have the option to manually reconstruct the dataset. (see section 'Manual Dataloading')
 2. Place `HAM10000.zip` in the folder `data` (do not de-compress the .zip file, depending on the web browser you migth need to manually re-compress the file after dowloading)
 3. Dowload the pre-trained models (only required if you wish to use the pre-trained functionalities):
    - [unet++.pt](https://drive.google.com/file/d/1biJqvAq1Vq8tWPM2E3ppaFDqp7iCzXhf/view?usp=share_link), the pretrained segmentation model
    - [resnet50.pt](https://drive.google.com/file/d/1H-3d_sALDrHNJXPizJFMPBZh09ty5gTK/view?usp=share_link), the pretrained classification model
 4. Place the unzipped pre-trained models in the main directory
+
+NOTE: If you wish to try metadata integation in part 3 (not tested) of the project you may also download [ISIC2019.zip](...).
 
 ### Run the Workflow
 1. Make sure that your working directory looks like the one in the `Directory Structure` section.
