@@ -25,7 +25,6 @@ This project is designed to run smoothly on Google Colab's free T4 GPU. If you i
 3. Dowload the pre-trained models (only required if you wish to use the pre-trained functionalities):
    - [unet++.pt](https://drive.google.com/file/d/1biJqvAq1Vq8tWPM2E3ppaFDqp7iCzXhf/view?usp=share_link), the pretrained segmentation model
    - [resnet50.pt](https://drive.google.com/file/d/1H-3d_sALDrHNJXPizJFMPBZh09ty5gTK/view?usp=share_link), the pretrained classification model
-   - - [resnet50.pt](https://drive.google.com/file/d/1fxXcLusphvvEW6HbwI5h1K50tVQ6GUk1/view?usp=share_link), the pretrained classification with metadat incorporation model
 4. Place the unzipped pre-trained models in the main directory
 
 NOTE: Part 3 of this project (metadata integration) has been implemented successfully but has not undergone thorough testing. Therefore, you may choose to disregard this section entirely. However, if you still want to test this functionality, you will need to apply the same data loading steps presented above to [ISIC2019.zip](https://drive.google.com/file/d/19to1bqmryUhOeG2M5Pjbej04FCO1gCHc/view?usp=share_link).
