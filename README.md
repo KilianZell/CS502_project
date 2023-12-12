@@ -79,4 +79,18 @@ If you wish to manually download the HAM10000 dataset, you can follow this steps
    - Group `data_train`, `gt_train` and `gt_train.csv` in a folder called `HAM10000` and compress it
    - Place `HAM10000.zip` in the folder named `data`
 
+When decompressed your `HAM10000` folder dhould look like this:
+```bash
+HAM10000/
+├── data_train
+│   ├──  ISIC_0024306.jpg
+│   ├──  ISIC_0024307.jpg
+│   └──  ...
+├── gt_train
+│   ├──  ISIC_0024306_segmentation.png
+│   ├──  ISIC_0024307_segmentation.png
+│   └──  ...
+└── gt_train.csv
+```
+
 
