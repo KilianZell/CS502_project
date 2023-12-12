@@ -31,7 +31,7 @@ NOTE: Part 3 of this project (metadata integration) has been implemented success
 
 ### Run the Workflow
 1. Make sure that your working directory looks like the one in the `Directory Structure` section.
-2. Simply open the project notebook `main.ipynb`, configure your GPU availability in the dedicated cell, and run the rest of the cells while following the instructions.
+2. Simply open the project notebook `main.ipynb`, configure your GPU availability in the dedicated cell, and run the rest of the cells using the provided instructions.
    
 ### Directory Structure
 Once installation and dataloading performed, your working directory should look like:
