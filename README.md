@@ -48,7 +48,6 @@ working directory/
 ├── figures
 │   ├──  fig1.png
 │   ├──  fig2.png
-│   ├──  ...
 │   └──  ...
 ├── main.ipynb
 ├── unet++.pt
