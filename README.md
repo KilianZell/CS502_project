@@ -69,10 +69,7 @@ The notebook is structured into three main parts, each dedicated to a specific a
 
 ### Manual Dataloading
 If you wish to manually download the HAM10000 dataset, you can follow this steps:
--  Download the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T):
-  - `HAM10000_images_part_1.zip`
-         - `HAM10000_images_part_1.zip`
-         - `HAM10000_segmentations_lesion_tschandl.zip`
+-  Download the two image folders and the groundtruth folder from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T): `HAM10000_images_part_1.zip`, `HAM10000_images_part_1.zip` and `HAM10000_segmentations_lesion_tschandl.zip`
       -  Download the groundtruth labels .csv file from the [ISIC website](https://challenge.isic-archive.com/data/#2018) available at this [link](https://isic-challenge-data.s3.amazonaws.com/2018/ISIC2018_Task3_Training_GroundTruth.zip).
       -  After downloading:
          - Unzip all files
