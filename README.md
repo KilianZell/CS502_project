@@ -57,6 +57,7 @@ working directory/
 ├── unet++.pt
 ├── resnet50.pt
 ├── zell_CS502.pdf
+├── final_scores.xlsx
 ├── requirements.txt
 └── README.md
 ```
