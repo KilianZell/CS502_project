@@ -49,6 +49,10 @@ working directory/
 │   ├──  fig1.png
 │   ├──  fig2.png
 │   └──  ...
+├── loss_plots
+│   ├──  unet++.png
+│   ├──  resnet50_B.png
+│   └──  resnet50.png
 ├── main.ipynb
 ├── unet++.pt
 ├── resnet50.pt
