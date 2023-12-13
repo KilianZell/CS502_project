@@ -334,7 +334,6 @@ def split_folders(DATA_PATH, p_test=0.2, type='segmentation', metadata=False, se
                     csv_train_writer.writerow(header)
                     csv_train_writer.writerows(remaining_rows)
 
-
 '''
 ---------------------------------------------------------------------------------------------
 Model Evaluation

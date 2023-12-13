@@ -492,7 +492,7 @@ class ResNet18(nn.Module):
         self.metadata = metadata
 
         # Load pre-trained ResNet34 model
-        resnet18 = models.resnet18(weights='ResNet34_Weights.DEFAULT')
+        resnet18 = models.resnet18(weights='ResNet18_Weights.DEFAULT')
 
         # Feature extraction layers (remove the fully connected layers at the end)
         self.features = nn.Sequential(*list(resnet18.children())[:-2])
