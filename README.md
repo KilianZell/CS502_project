@@ -69,6 +69,7 @@ The notebook is structured into three main parts, each dedicated to a specific a
 *Part 2: Lesion Classification.* Building on the 'region of interest' extraction approach developed in the previous part, this section aims to predict lesion disease states, categorizing them as either 'melanoma' or 'non-melanoma.' Model performance evaluation will include key metrics such as accuracy, specificity, sensitivity, precision, and F1-score.
 
 *Part 3: Metadata Integration. (--NOT TESTED--)* Extending the classification efforts, this section aims to incorporate additional available patient metadata (age, lesion location, and sex). Model performance will be evaluated using key metrics such as accuracy, specificity, sensitivity, precision, and F1-score.
+
 ---Please note that the following section has been implemented successfully but has not undergone thorough testing. Therefore, you may choose to disregard this section entirely.---
 
 
